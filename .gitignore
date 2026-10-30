@@ -1,0 +1,8 @@
+# 缓存
+python/__pycache__
+
+# 系统日志
+system_log/*
+
+# 数据库
+python/file_manager.db
