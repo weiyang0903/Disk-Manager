@@ -238,7 +238,7 @@ function initializeUI() {
     }
   });
 
-  document.getElementById('localImportBtn').addEventListener('click', openLocalImportModal);
+  document.getElementById('localImportBtn').addEventListener('click', () => openLocalImportModal());
   document.getElementById('localImportSelectCombinedBtn').addEventListener('click', () => {
     openLocalPickerModal();
   });
